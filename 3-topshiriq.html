@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin: 0;
+       padding: 0;
+       
+
+    }
+    body{
+        text-align: center;
+        border-color: rgb(201, 199, 199);
+        background-color: rgb(250, 248, 248); 
+    }
+    
+    nav{
+       height: 3rem;
+       background-color: white;
+       align-items: center;
+       display: flex;
+       justify-content: space-between;
+       border-style: solid;
+       border-bottom-color:rgb(221, 220, 220);
+       border-left: none;
+       border-right: none;
+       border-width: 1px;
+    }
+    .logo{
+        margin-left: 3rem;
+    }
+    .pages{
+        margin-right: 3rem;
+        width: fit-content;
+    }
+    .pages p{
+        display: inline;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        }
+    .pages button{
+        margin-left: 2rem;
+        border-color: rgb(0, 204, 255);
+        border-radius: 5px;
+        width: 70px;
+        height: 30px;
+        background-color: white;
+        border-width: 0.5px;
+        color:  rgb(0, 204, 255);
+    }    
+    section{
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-content: space-between;
+           
+        }
+        .card-container{
+            width: 250px;
+            height: 240px;
+            border-color: rgb(221, 220, 220);
+             margin: 1rem;
+             border-radius: 10px;
+             border-style: solid;
+             border-width: 1px;
+            
+        }
+        .card-header{
+            background-color:rgb(236, 233, 233);
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-color: rgb(221, 220, 220);
+            border-radius: 10px 10px 0px 0px;
+            border-width: 0.5px;
+            border-style: solid;
+
+
+        }
+        .card-body{
+            background-color: white;
+            height: 200px;
+           padding: 2rem;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           border-radius: 0px 0px 10px 10px;
+            border-width: 0.5px;
+            border-style: solid;
+           align-items: center;
+           border-color: rgb(221, 220, 220);
+        }
+        .card-body button{
+            width: 220px;
+            height: 40px;
+            border-color:rgb(0, 204, 255) ;
+            border-width: 0.5px;
+            color:  rgb(0, 204, 255);
+            background-color: white;
+            border-radius: 3px;
+
+
+        }
+       .abc{
+       
+        margin-top: 2rem;
+       }
+</style>
+<body>
+    <nav>
+        <div class="logo"><p><span style="font-size: 20px;">Company name</span></p></div>
+        <div class="pages">
+            <p>Features</p>
+            <p>Enterprise</p>
+            <p>Support</p>
+            <p>Pricing</p>
+            <button>Sign up</button>
+        </div>
+    </nav><div class="abc">
+    <p><span style="font-size: 50px;">Pricing</span>
+        <P><span style="color: rgba(0, 0, 0, 0.562);">Quickly build an effective pricing table for table for your potential customers with this <br>
+            Bootstrap example. It's built with default Bootstap komponents and utilities with <br>
+             little customization</span></P></p>
+         </div>
+    <SEction>
+        
+        <div class="card-container">
+        <div class="card-header">Free</div>
+        <div class="card-body">
+            <p><span style="font-size: 30px"><b>$0</b></span>
+                <span style="font-size: 25px;color: darkgray;">/mo</span></p>
+            <p>10 users included <br> 2GB of storage <br>
+            Priority email support <br>
+            Help center access</p>
+            <button>Sign up for free</button>
+        </div></div>
+        <div class="card-container">
+        <div class="card-header">Pro</div>
+        <div class="card-body">
+            <p><span style="font-size: 30px"><b>$15</b></span>
+                <span style="font-size: 25px;color: darkgray;">/mo</span></p>
+            <p>20 users included <br> 10GB of storage <br>
+            Priority email support <br>
+            Help center access</p>
+            <button>Get started</button>
+        </div></div>
+        <div class="card-container">
+        <div class="card-header">Enterprise</div>
+        <div class="card-body">
+            <p><span style="font-size: 30px"><b>$29</b></span>
+                <span style="font-size: 25px;color: darkgray;">/mo</span></p>
+            <p>30 users included <br> 15GB of storage <br>
+            Priority email support <br>
+            Help center access</p>
+            <button>Contact us</button>
+        </div></div>
+    </SEction>
+</body>
+</html>
